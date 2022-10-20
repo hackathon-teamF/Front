@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background: silver;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+li {
+  padding: 10px;
+}
+
+span {
+  font-size: 20px;
+}
+
+ion-icon {
+  font-size: 25px;
+  position: relative;
+  top: 5px;
+}
+
+.return {
+  background: #66ffff;
+}
+.chanel {
+  margin-left: auto;
+  margin-right: 5px;
+}
+.signout {
+  margin-right: 10px;
+}
