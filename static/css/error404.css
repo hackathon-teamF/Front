@@ -1,0 +1,37 @@
+.error-title {
+    font-size: 80px;
+    text-align: center;
+    }
+    
+    img {
+        margin: auto;
+        display: flex;
+        padding-top: 50px;
+    }
+    
+    .error-content {
+        margin: auto;
+    }
+
+    #span-a{
+        text-align: center;
+        font-size: 70px;
+        position: relative;
+    }
+    span {
+        text-align: center;
+        margin: auto;
+    }
+    
+    p {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    a {
+        text-align: center;
+    }
+    
+    #btn-a {
+        text-align: center;
+    }

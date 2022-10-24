@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="../../static/css/styles.css"> -->
+  <title>add-modal</title>
+</head>
+
+<body>
+  <div id="add-channel-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5>チャンネルを追加</h5>
+        <!-- <img
+          src="{{ url_for('static',filename='img/cat-on-bar.gif') }}"
+          class="modal-gif"
+        /> -->
+        <span class="modalClose" id="add-page-close-btn">×</span>
+      </div>
+      <form class="modal-body" action="/" method="POST">
+        <input
+          type="text"
+          placeholder="チャンネル名"
+          class="channel-form-input"
+          name="channel-title"
+        />
+        <input
+          type="text"
+          placeholder="チャンネルの説明"
+          class="channel-form-input"
+          name="channel-description"
+        />
+        <button id="add-channel-confirmation-btn">登録</button>
+      </form>
+    </div>
+  </div> 
+</body>
+</html>
+
+
+
+

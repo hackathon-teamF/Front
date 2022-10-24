@@ -1,0 +1,27 @@
+.error-title {
+font-size: 80px;
+text-align: center;
+}
+
+img {
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+}
+
+.error-wrapper {
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    text-align: center;
+}
+
+#btn-a {
+    text-align: center;
+}
