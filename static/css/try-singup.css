@@ -1,9 +1,8 @@
 #toptop {
-    padding: 10px 50px ;
-    height: 200px;
-    margin: 40px
+  padding: 10px 50px;
+  height: 200px;
+  margin: 40px;
 }
-
 
 #top {
   background-color: antiquewhite;
@@ -13,8 +12,8 @@
   border-radius: 8px;
 }
 #top-1 {
-    margin: 20px 0px 10px 0px;
-    height: 140px;
+  margin: 20px 0px 10px 0px;
+  height: 140px;
 }
 
 #title {
@@ -35,12 +34,12 @@ input {
 }
 
 .input-area {
- margin: 50px
+  margin: 50px;
 }
 
 .registration-form {
-    margin:0px;
-    padding-bottom:100px ;
+  margin: 0px;
+  padding-bottom: 100px;
 }
 
 button:hover {
@@ -50,12 +49,12 @@ button:hover {
 }
 
 #btn-a {
-display: flex;
-border: 1px;
-border-radius: 3px;
+  display: flex;
+  border: 1px;
+  border-radius: 3px;
 }
 
 .button-t {
-font-size: large;
-margin: auto;
+  font-size: large;
+  margin: auto;
 }

@@ -1,20 +1,33 @@
-<div id="delete-channel-modal" class="modal">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5>本当に削除しますか？</h5>
-        <img
-          src="{{ url_for('static',filename='img/cat-on-bar.gif') }}"
-          class="modal-gif"
-        />
-        <span class="modalClose" id="delete-page-close-btn">×</span>
-      </div>
-      <div class="modal-body">
-        <p>削除ボタンを押すとチャンネルが消えます</p>
-        <p>本当によろしいですか？</p>
-        <a id="delete-confirm-link">
-          <button id="delete-channel-confirmation-btn">削除</button>
-        </a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../static/css/modal.css">
+    <!-- <link rel="stylesheet" href="../../static/css/styles.css"> -->
+    <title>delete-modal</title>
+  </head>
+
+  <body>
+    <div id="delete-channel-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5>本当に削除しますか？</h5>
+          <!-- <img
+            src="{{ url_for('static',filename='img/cat-on-bar.gif') }}"
+            class="modal-gif"
+          /> -->
+          <span class="modalClose" id="delete-page-close-btn">×</span>
+        </div>
+        <div class="modal-body">
+          <p>削除ボタンを押すとチャンネルが消えます</p>
+          <p>本当によろしいですか？</p>
+          <a id="delete-confirm-link">
+            <div id="aida-2"><button id="delete-channel-confirmation-btn">削除</button></div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-  
+  </body>
+</html>

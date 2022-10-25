@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>404error</title>
-    <link rel="stylesheet" href="../../static/css/error404.css">
+    <link rel="stylesheet" href="../../static/css/error404.css" />
     <!-- <link
       rel="stylesheet"
       type="text/css"
@@ -23,11 +23,15 @@
     /> -->
   </head>
   <body class="error">
-   
     <div class="error-wrapper">
       <div class="error-content">
         <div id="span-a">
-          <img src="../../static/img/road-ga537b7e9e_1920.jpg" alt="サンプル２" width="500px" height="400px">
+          <img
+            src="../../static/img/road-ga537b7e9e_1920.jpg"
+            alt="サンプル２"
+            width="500px"
+            height="400px"
+          />
           <p1>404</p1>
           <div class="eye"></div>
           <!-- <span class="error-num">4</span> -->
@@ -35,14 +39,14 @@
         <div class="error-description error404or500">
           <p>ページが見つかりませんでした。</p>
           <div id="btn-a">
-          <button class="basic-btn error-btn">
-            <a href="{{ url_for('index') }}"> 戻る </a>
-          </button>
-        </div>
+            <button class="basic-btn error-btn">
+              <a href="{{ url_for('index') }}"> 戻る </a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-</body>
+  </body>
 </html>
 <script
   src="{{url_for('static',filename='js/error.js')}}"

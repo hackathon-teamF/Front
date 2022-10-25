@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>signup</title>
-    <link rel="stylesheet" href="../../../static/css/try-singup.css">
+    <link rel="stylesheet" href="../../../static/css/try-singup.css" />
     <!-- <link
       rel="stylesheet"
       href="{{url_for('static',filename='css/styles.css')}}"
@@ -17,38 +17,48 @@
   </head>
   <body>
     <div id="toptop">
-    <div id="top">
-      <!-- <div class="half-circle pink"> -->
+      <div id="top">
+        <!-- <div class="half-circle pink"> -->
         <div id="top-1"><h1 id="title">SIGN UP</h1></div>
         <form class="registration-form" method="post">
-         
           <div class="input-area">
-          <input class="input1" type="text" placeholder="Name" name="name" />
-          <div class="input-area">
-          <input class="input1" type="text" placeholder="Email" name="email" />
-          <div class="input-area">
-          <input class="input1" type="password" placeholder="Password" name="password1" />
-          <div class="input-area">
-          <input class="input1"
-            type="password"
-            placeholder="Password Confirmation"
-            name="password2"
-          />
-        </div>
-      </div>
-    </div>
-    </div>
+            <input class="input1" type="text" placeholder="Name" name="name" />
+            <div class="input-area">
+              <input
+                class="input1"
+                type="text"
+                placeholder="Email"
+                name="email"
+              />
+              <div class="input-area">
+                <input
+                  class="input1"
+                  type="password"
+                  placeholder="Password"
+                  name="password1"
+                />
+                <div class="input-area">
+                  <input
+                    class="input1"
+                    type="password"
+                    placeholder="Password Confirmation"
+                    name="password2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
           <div id="btn-a">
             <button class="button-t">SIGN UP</button>
           </div>
-              <!-- <ul class="flashes">
+          <!-- <ul class="flashes">
                 <li>{{ message }}</li>
               </ul>
           <a class="switch-register-mode" href="{{ url_for('login') }}">
           </a> -->
         </form>
-      <!-- </div> -->
+        <!-- </div> -->
+      </div>
     </div>
-  </div>
   </body>
 </html>
