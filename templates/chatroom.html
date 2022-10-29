@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chatroom</title>
+    <link rel="stylesheet" href="../static/css/normalize.css" />
+    <link rel="stylesheet" href="../static/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Sawarabi+Mincho&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d4d3ecd569.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="body">
+    <header>
+      <div class="navbar">
+        <div class="return">
+          <div class="btn-txt-return">
+            <span class="btn-txt-return">戻る</span>
+          </div>
+        </div>
+        <div class="menu">
+          <ul class="menulist">
+            <li class="summary">
+							<a href="./index.html"> 
+              <span class="btn-txt-summary">ルーム一覧</span>
+							</a>
+						</li>
+            <li class="signout">
+              <a href="./registration/login.html">
+                <span class="btn-txt-signout">サインアウト</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="room-container">
+        <div class="message-container">
+          <!-- 自分のメッセージと相手のメッセージでクラスを分ける -->
+          <p class="message-right">こんにちは</p>
+          <p class="message-left">こんにちは〜</p>
+          <p class="message-right">ここに自分のメッセージ</p>
+          <p class="message-left">ここに相手のメッセージ</p>
+          <p class="message-left">
+            ああああああああああああああああああああああああああああああああああ
+          </p>
+          <p class="message-left">
+            ああああああああああああああああああああああああああああああああああ
+          </p>
+          <p class="message-left">
+            ああああああああああああああああああああああああああああああああああ
+          </p>
+          <p class="message-left">
+            ああああああああああああああああああああああああああああああああああ
+          </p>
+          <p class="message-left">
+            ああああああああああああああああああああああああああああああああああ
+          </p>
+          <p class="message-left">
+            ああああああああああああああああああああああああああああああああああ
+          </p>
+          <p class="message-left">
+            ああああああああああああああああああああああああああああああああああ
+          </p>
+          <p class="message-left">
+            ああああああああああああああああああああああああああああああああああ
+          </p>
+          <p class="message-left">
+            ああああああああああああああああああああああああああああああああああ
+          </p>
+          <p class="message-left">
+            ああああああああああああああああああああああああああああああああああ
+          </p>
+        </div>
+        <div class="message-form">
+          <form action="#" method="POST">
+            <input type="text" name="message" id="input-message" />
+            <button class="btn-send-message" type="submit" name="message">送信</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+		<script src="../static/js/chatroom.js"></script>
+  </body>
+</html>
