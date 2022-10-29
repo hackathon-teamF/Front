@@ -10,7 +10,8 @@ body.body {
   height: 80%;
   padding: 2rem 5rem 0 5rem;
   background: rgb(184, 234, 238);
-  margin-top: 2rem;
+  margin-top: 1rem;
+  overflow-y: scroll;
 }
 
 .message-right {
