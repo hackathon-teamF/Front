@@ -16,13 +16,13 @@ h1.container-title {
   margin-top: 5rem;
 }
 
-ul.roomlist {
+ul#roomlist {
   display: flex;
   flex-direction: column;
   margin-top: 3rem;
 }
 
-ul.roomlist > li {
+ul#roomlist > li {
   font-size: 3rem;
   margin: 1rem;
 }
@@ -35,13 +35,13 @@ ul.roomlist > li {
   width: 100%;
 }
 
-ul.pagination {
+ul#pagination {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-ul.pagination > li {
+ul#pagination > li {
   font-size: 1.5rem;
   margin: 0 1rem;
 }
