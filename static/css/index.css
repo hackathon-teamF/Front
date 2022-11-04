@@ -1,6 +1,7 @@
 .container {
   background: rgb(184, 234, 238);
   height: 70vh;
+  min-height: 60vh;
   width: 60vw;
   margin: 10rem auto;
   border-radius: 10px;
@@ -33,6 +34,7 @@ ul#roomlist > li {
   justify-content: center;
   font-size: 1.5rem;
   width: 100%;
+  margin-top: 20px;
 }
 
 ul#pagination {
