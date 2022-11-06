@@ -53,7 +53,7 @@ const make_Chatroom_List = (page, step) => {
       const room_Li = document.createElement("li");
       room_Ul.appendChild(room_Li);
       const room_Anchor = document.createElement("a");
-      room_Anchor.href = "#";
+      room_Anchor.href = "detail.html";
       room_Anchor.textContent = chatrooms[chatroom];
       room_Li.appendChild(room_Anchor);
     }
